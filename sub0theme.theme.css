@@ -1,0 +1,85 @@
+/**
+ * @name below 0 theme
+ * @version 1.0.0
+ * @author troll plant
+ * @description a cool sunautca theme made with discord+ https://betterdiscord.app/theme/Discord%2B
+*/
+@import url(//plusinsta.github.io/discord-plus/DiscordPlus-source.theme.css);
+
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700|Righteous);
+
+:root {
+
+--dplus-background: url(https://cdn.discordapp.com/attachments/765223819878727680/848165828091969556/image0.png
+);
+
+/* Accent color, used to decorate the UI with colors. */
+--dplus-accent-ui:  rgba(18,15,171,0.5772727272727273);
+
+/* Fonts */
+--dplus-font-ui: 'Poppins';
+--dplus-font-body: 'Roboto';
+--dplus-font-header: 'Righteous';
+
+/* Round corner sizes, measured in pixel radius
+   Set avatar/server to 50% for circles
+   UI radius must be in pixels */
+--dplus-radius-ui: 10px;
+--dplus-radius-avatar: 20%;
+--dplus-radius-server: 20%;
+
+/* This determines margins and padding */
+--dplus-spacing-ui: 10px;
+--dplus-spacing-app: 10px;
+
+/* The Home icon */
+--dplus-icon-home-dark: url(//plusinsta.github.io/discord-plus/assets/discord/home_dark.svg);
+--dplus-icon-home-light: url(//plusinsta.github.io/discord-plus/assets/discord/home_light.svg);
+
+/* Icon sizes */
+--dplus-icon-avatar-chat: 60px;
+--dplus-icon-avatar-list: 32px;
+--dplus-icon-avatar-profile: 80px;
+
+--dplus-icon-server-sidebar: 48px;
+--dplus-icon-server-list: 32px;
+
+/* Scrollbar width */
+--dplus-scrollbar-width: 10px;
+
+/* Blur percentage. Set to 0 to disable blur.
+   Performance may be affected by this option. */
+--dplus-blur-scale: 100;
+}
+
+
+/* Background covers */
+.theme-dark {
+	--dplus-bgc-ui-base: hsla(256, 78%, 38%, 0.435);
+	--dplus-bgc-ui-base-hover:hsla(251, 73%, 25%, 0.503);
+	--dplus-bgc-ui-card:hsla(224, 74%, 24%, 0.637);
+	--dplus-bgc-ui-card-hover: hsla(181, 72%, 15%, 0.74);
+	--dplus-bgc-chatmsg: hsla(244, 87%, 22%, 0.38);
+	--dplus-bgc-chatmsg-hover: hsla(253, 69%, 19%, 0.545);
+	--dplus-bgc-popout:  hsla(244, 85%, 46%, 0.538);
+	--dplus-bgc-button: hsla(244, 80%, 30%, 0.586);
+	--dplus-bgc-button-hover: hsla(251, 85%, 46%, 0.38);
+	--dplus-bgc-server-button: hsla(251, 88%, 31%, 0.366);
+	--dplus-bgc-server-button-hover:  hsla(256, 89%, 22%, 0.586);
+}
+
+.theme-light {
+		--dplus-bgc-ui-base: hsla(256, 78%, 38%, 0.435);
+	--dplus-bgc-ui-base-hover:hsla(251, 73%, 25%, 0.503);
+	--dplus-bgc-ui-card:hsla(224, 74%, 24%, 0.637);
+	--dplus-bgc-ui-card-hover: hsla(181, 72%, 15%, 0.74);
+	--dplus-bgc-chatmsg: hsla(244, 87%, 22%, 0.38);
+	--dplus-bgc-chatmsg-hover: hsla(253, 69%, 19%, 0.545);
+	--dplus-bgc-popout:  hsla(244, 85%, 46%, 0.538);
+	--dplus-bgc-button: hsla(244, 80%, 30%, 0.586);
+	--dplus-bgc-button-hover: hsla(251, 85%, 46%, 0.38);
+	--dplus-bgc-server-button: hsla(251, 88%, 31%, 0.366);
+	--dplus-bgc-server-button-hover:  hsla(256, 89%, 22%, 0.586);
+}
+
